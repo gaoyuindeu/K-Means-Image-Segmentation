@@ -1,6 +1,3 @@
-# K-Means-Image-Segmentation
-Segmenting Images of Food using K-Means Unsupervised Clustering Algorithm
-
 # Introduction
 I am going to be using the K-Means Unsupervised Clustering Algorithm to segment images of lunch trays. <br/> This dataset is meant for supervised learning but I am going to attempt to segment the images without any labels given. <br/>
 I am going to cluster pixels based on their spatial and color data only.
@@ -10,4 +7,9 @@ I am going to cluster pixels based on their spatial and color data only.
 <br/>
 <br/>
 <br/>
-I'm concatenating the RGB and HSV color spaces. `256x416x3` + `256x416x3` = `256x416x6`
+I'm concatenating the RGB and HSV color spaces and clustering pixels based on that data. <br/> `256x416x3` + `256x416x3` = `256x416x6`
+
+# Results
+![results](https://raw.githubusercontent.com/vee-upatising/K-Means-Image-Segmentation/master/results.png)
+
+# [View Kaggle Notebook](https://www.kaggle.com/function9/k-means-unsupervised-image-segmentation)
